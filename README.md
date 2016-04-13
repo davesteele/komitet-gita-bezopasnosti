@@ -1,6 +1,8 @@
 Komitet Git'a bezopasnosti
 ==========================
 
+* Add passing example
+
 Komitet Git'a bezopasnosti (KGB) or Git security committee, is a commit message style enforcer.
 It will listen to pull-request(pr) events from github, analyse the commit messages in the pr, and if there are any violations, it will submit a helpful if somewhat authoritative comment message and set the status to error. If there are no violations it will set the status to success.
 
